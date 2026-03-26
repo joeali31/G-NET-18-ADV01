@@ -86,6 +86,16 @@ namespace G_NET_18_ADV01
             #endregion
 
 
+            #region Question12
+            /*Q12: How do you apply multiple constraints? Write an example. 
+             * You can combine constraints using commas.
+             */
+
+
+            #endregion
+
+
+
         }
 
         public static void Swap<T>(ref T a, ref T b)
