@@ -107,6 +107,14 @@ namespace G_NET_18_ADV01
             #endregion
 
 
+            #region Question15
+            /*Q15: What is covariance? Explain the 'out' keyword.
+             * Covariance allows a more derived type to be used where a base type is expected.
+             */
+            #endregion
+
+
+
         }
 
         public static void Swap<T>(ref T a, ref T b)

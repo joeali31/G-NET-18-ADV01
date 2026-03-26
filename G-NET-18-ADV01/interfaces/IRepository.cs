@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace G_NET_18_ADV01.interfaces
 {
-    public interface IRepository<T>
+    public interface IRepository<out T>
     {
-        void Add(T item);
+        //void Add(T item);
         T Get(int id);
+
         void Delete(int id);
     }
 }
