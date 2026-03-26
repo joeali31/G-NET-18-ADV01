@@ -71,6 +71,14 @@ namespace G_NET_18_ADV01
              */
             #endregion
 
+
+            #region Question10
+            /*Q10:  What is the interface constraint? Write an example.
+             * Restricts T to types that implement a specific interface.
+             */
+            #endregion
+
+
         }
 
         public static void Swap<T>(ref T a, ref T b)

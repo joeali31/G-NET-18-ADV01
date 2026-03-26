@@ -1,4 +1,5 @@
-﻿using System;
+﻿using G_NET_18_ADV01.interfaces;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace G_NET_18_ADV01.Class
 {
-    public class ValueContainer<T> where T : new()
+    public class ValueContainer<T> where T : IRepository<int>
     {
-        public T item { get; set; }
+        
     }
 }
