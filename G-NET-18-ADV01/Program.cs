@@ -114,6 +114,13 @@ namespace G_NET_18_ADV01
             #endregion
 
 
+            #region Question16
+            /*What is contravariance? Explain the 'in' keyword.
+             * Contravariance allows a less derived type to be used where a more derived type is expected.
+             */
+            #endregion
+
+
 
         }
 
