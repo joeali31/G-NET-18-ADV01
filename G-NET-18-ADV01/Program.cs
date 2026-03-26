@@ -55,6 +55,16 @@ namespace G_NET_18_ADV01
              */
             //ValueContainer<int> number = new();
             #endregion
+
+
+            #region Question08
+            /*Q8: What is the 'class' constraint? Write an example.
+             * Restricts T to reference types only.
+             */
+            //ValueContainer<string> container = new ValueContainer<string>();
+            #endregion
+
+
         }
 
         public static void Swap<T>(ref T a, ref T b)

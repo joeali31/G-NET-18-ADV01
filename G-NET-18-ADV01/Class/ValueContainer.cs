@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace G_NET_18_ADV01.Class
 {
-    public class ValueContainer<T> where T : struct
+    public class ValueContainer<T> where T : class
     {
         public T item { get; set; }
     }
