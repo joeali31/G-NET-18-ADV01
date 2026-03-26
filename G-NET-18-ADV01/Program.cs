@@ -30,9 +30,16 @@ namespace G_NET_18_ADV01
 
             #region Question04
             /*What is a generic method? Write Swap<T> method.*/
-            int x = 5 ,y = 10;
-            Swap<int>(ref x ,ref y);
-            Console.WriteLine($"{x} {y}");
+            //int x = 5 ,y = 10;
+            //Swap<int>(ref x ,ref y);
+            //Console.WriteLine($"{x} {y}");
+            #endregion
+
+
+            #region Question05
+            /*Write a generic method FindMax<T> that finds maximum value*/
+            //int x = 11, y = 10;
+            //Console.WriteLine(FindMax(x, y));
             #endregion
 
         }
@@ -42,6 +49,12 @@ namespace G_NET_18_ADV01
             T temp = a;
             a = b;
             b = temp;
+        }
+
+
+        public static T FindMax<T>(T a, T b) where T : IComparable<T>
+        {
+            return a.CompareTo(b) > 0 ? a : b;
         }
     }
 }
