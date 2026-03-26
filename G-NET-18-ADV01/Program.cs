@@ -136,6 +136,15 @@ namespace G_NET_18_ADV01
             #endregion
 
 
+            #region Question19
+            /*Q19: How can you inherit from a generic class?
+             * Pattern 1: Inherit and Pass Type Parameter
+             * Pattern 2: Inherit with Concrete Type
+             * Pattern 3: Add New Type Parameter
+             */
+            #endregion
+
+
         }
 
         public static void Swap<T>(ref T a, ref T b)
