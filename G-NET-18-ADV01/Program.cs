@@ -21,6 +21,12 @@ namespace G_NET_18_ADV01
             Container<int> number = new(10);
             #endregion
 
+
+            #region Question03
+            /*What are multiple type parameters? Write Pair<TKey, TValue>.*/
+            Pair<string, int> pair = new("key", 10);
+            #endregion
+
         }
     }
 }
