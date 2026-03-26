@@ -95,6 +95,13 @@ namespace G_NET_18_ADV01
             #endregion
 
 
+            #region Question13
+            /*Q13: What does the default keyword do in generics?
+             * default returns the default value of a type
+             */
+            #endregion
+
+
 
         }
 
