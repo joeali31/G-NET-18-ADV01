@@ -27,6 +27,21 @@ namespace G_NET_18_ADV01
             Pair<string, int> pair = new("key", 10);
             #endregion
 
+
+            #region Question04
+            /*What is a generic method? Write Swap<T> method.*/
+            int x = 5 ,y = 10;
+            Swap<int>(ref x ,ref y);
+            Console.WriteLine($"{x} {y}");
+            #endregion
+
+        }
+
+        public static void Swap<T>(ref T a, ref T b)
+        {
+            T temp = a;
+            a = b;
+            b = temp;
         }
     }
 }
