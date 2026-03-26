@@ -18,13 +18,13 @@ namespace G_NET_18_ADV01
 
             #region Question02
             /*Write a generic class Container<T> with Add and Get methods.*/
-            Container<int> number = new(10);
+            //Container<int> number = new(10);
             #endregion
 
 
             #region Question03
             /*What are multiple type parameters? Write Pair<TKey, TValue>.*/
-            Pair<string, int> pair = new("key", 10);
+            //Pair<string, int> pair = new("key", 10);
             #endregion
 
 
@@ -46,6 +46,14 @@ namespace G_NET_18_ADV01
             #region Question06
             /*Q6: What is a generic interface? Write IRepository<T>. */
 
+            #endregion
+
+
+            #region Question07
+            /*Q7: What is the 'struct' constraint? Write an example.
+             * Restricts T to value types only.
+             */
+            //ValueContainer<int> number = new();
             #endregion
         }
 
