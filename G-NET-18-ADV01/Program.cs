@@ -102,6 +102,10 @@ namespace G_NET_18_ADV01
             #endregion
 
 
+            #region Question14
+            /* Write a SafeList<T> that returns default when the index is invalid.*/
+            #endregion
+
 
         }
 
