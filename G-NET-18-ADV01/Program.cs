@@ -129,6 +129,13 @@ namespace G_NET_18_ADV01
             #endregion
 
 
+            #region Question18
+            /*Q18: How do static members work in generic types?
+             * Static members are shared per closed generic type, not across all types.
+             */
+            #endregion
+
+
         }
 
         public static void Swap<T>(ref T a, ref T b)
