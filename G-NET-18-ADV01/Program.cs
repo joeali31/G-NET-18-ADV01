@@ -42,6 +42,11 @@ namespace G_NET_18_ADV01
             //Console.WriteLine(FindMax(x, y));
             #endregion
 
+
+            #region Question06
+            /*Q6: What is a generic interface? Write IRepository<T>. */
+
+            #endregion
         }
 
         public static void Swap<T>(ref T a, ref T b)
