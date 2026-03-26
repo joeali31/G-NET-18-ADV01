@@ -121,6 +121,13 @@ namespace G_NET_18_ADV01
             #endregion
 
 
+            #region Question17
+            /*Q17: What is the difference between covariance and contravariance?
+             * Covariance : Derived → Base , Output , out , IEnumerable<out T>
+             * Contravariance : Base → Derived , Input , in , IEnumerable<in T>
+             */
+            #endregion
+
 
         }
 
