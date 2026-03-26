@@ -79,6 +79,13 @@ namespace G_NET_18_ADV01
             #endregion
 
 
+            #region Question11
+            /*Q11: What is the base class constraint? Write an example.
+             * Restricts T to inherit from a specific base class.
+             */
+            #endregion
+
+
         }
 
         public static void Swap<T>(ref T a, ref T b)
