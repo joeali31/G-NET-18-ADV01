@@ -65,6 +65,12 @@ namespace G_NET_18_ADV01
             #endregion
 
 
+            #region Question09
+            /*Q9: What is the 'new()' constraint? Write an example.
+             * Requires that T has a parameterless constructor.
+             */
+            #endregion
+
         }
 
         public static void Swap<T>(ref T a, ref T b)
